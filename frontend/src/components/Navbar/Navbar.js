@@ -1,3 +1,8 @@
+ 
+
+
+
+
 
 import React from "react";
 import "./Navbar.css";
@@ -18,9 +23,8 @@ function Navbar() {
         </div>
       </div>
       
-      <input className="searchbar" type="search" placeholder="Search..." />
-
       <div className="actions">
+        <input className="searchbar" type="search" placeholder="Search..." />
         <button className="icon-btn">
           <Share />
         </button>

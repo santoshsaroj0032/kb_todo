@@ -14,19 +14,27 @@ function Home() {
       cards: [
         {
           id: Date.now() + Math.random(),
-          title: "Programming",
+          title: "Planning",
           tasks: [],
           labels: [{ text: "Add Buttons", color: "white" }],
           desc: "something",
-          date: "17-oct"
+          date: "22-March"
         },
         {
           id: Date.now() + Math.random(),
-          title: "revise",
+          title: "Running",
           tasks: [],
           labels: [{ text: "Logic Revision", color: "white" }],
           desc: "something",
-          date: "18-oct"
+          date: "22-March"
+        },
+        {
+          id: Date.now() + Math.random(),
+          title: "Software Requirements",
+          tasks: [],
+          labels: [{ text: "Coding", color: "white" }],
+          desc: "something",
+          date: "22-March"
         }
       ]
     },
@@ -40,7 +48,7 @@ function Home() {
           tasks: [],
           labels: [{ text: "Add Buttons", color: "white" }],
           desc: "something",
-          date: "17-oct"
+          date: "23-March"
         },
         {
           id: Date.now() + Math.random(),
@@ -48,7 +56,7 @@ function Home() {
           tasks: [],
           labels: [{ text: "Logo Revision", color: "white" }],
           desc: "something",
-          date: "18-oct"
+          date: "23-March"
         }
       ]
     },
