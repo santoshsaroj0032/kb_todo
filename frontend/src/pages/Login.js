@@ -8,13 +8,13 @@ function Login() {
     email: "",
     password: "",
   });
-
+  
   const navigate = useNavigate(); // For redirection
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setLoginInfo((prev) => ({ ...prev, [name]: value }));
-  };
+  }; 
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -22,7 +22,7 @@ function Login() {
     if (!loginInfo.email || !loginInfo.password) {
       toast.error("Please fill in all fields.");
       return;
-    }
+    }  
 
     try {
       const response = await fetch("http://localhost:8000/auth/login", {
