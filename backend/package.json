@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "kanban Todo",
-  "main": "index.js",
+  "main": "backend/index.js",
   "scripts": {
     "start": "nodemon index.js"
   },
