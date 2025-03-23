@@ -1,0 +1,39 @@
+.addcard{
+width: 100%;
+}
+.addcard_display{
+background-color: white;
+border-radius: 3px;
+padding: 10px;
+text-align: center;
+cursor: default;
+}
+.addcard_display:hover{
+    background-color: #ccc;
+}
+.addcard_edit{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.addcard_edit input{
+    outline: none;
+    padding: 5px;
+    font-size: 1rem;
+}
+.addcard_footer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.addcard_footer button{
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addcard_footer svg{
+    cursor: pointer;
+}

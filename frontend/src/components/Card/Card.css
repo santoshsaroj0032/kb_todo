@@ -1,0 +1,54 @@
+.card{
+    padding: 10px;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    gap: 10px;
+}
+.card_top{
+    gap: 10px;
+}
+.card_labels{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+}
+.card_top svg{
+    opacity: 0;
+    transition: 200ms;
+}
+.card:hover .card_top svg{
+    opacity: 1;
+}
+.morehorizontal{
+    margin-left: 150px;
+}
+.card_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_footer svg{
+    height: 14px;
+    width: 14px;
+}
+.card_footer p{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.user_img svg{
+    opacity: 1 !important;
+}
+.card_top_more{
+    position: relative;
+    cursor: pointer;
+}
+.card_dropdown{
+    margin-top: -10px;
+    background-color:#f8f8f8;
+    padding: 5px;
+    border-radius: 3px;
+    width:100px;
+    padding-left: 30px;
+}
