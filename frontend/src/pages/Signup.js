@@ -59,8 +59,8 @@ function Signup() {
 
   return (
     <div className="container">
-      <h1>Signup</h1>
       <form onSubmit={handleSignup}>
+      <h1>Create Account</h1>
         <div>
           <label htmlFor="name">Name</label>
           <input
