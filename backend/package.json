@@ -4,7 +4,7 @@
   "description": "kanban Todo",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon start"
+    "start": "node index.js"
   },
   "author": "Santosh Saroj",
   "license": "ISC",
