@@ -1,6 +1,6 @@
 # To-Do App (MERN Stack)
 
-![Project Screenshot](./image.png)  
+ 
 
 ## 📌 Features
 - **Secure Authentication**: Uses **JWT** and **bcrypt** for user authentication.
